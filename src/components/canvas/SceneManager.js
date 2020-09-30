@@ -6,9 +6,7 @@ import PU from '../../assets/PU_Logo.png';
 
 // OTROS
 import Stars from './objects/others/stars.js'
-import NebulaTest from './objects/tests/nebulaTest.js'
-import WonderTest from './objects/tests/wonderTest.js'
-import WonderSystem from './objects/tests/wonderSystem.js'
+import Sphere from './objects/others/sphere.js'
 // HUD
 import HudTest from './objects/tests/hudTest.js'
 
@@ -141,13 +139,7 @@ export default function SceneManager (canvas)  {
     const sceneSubjects = [
       new Stars(2000,scene),
       new HudTest(scene,camera),
-      new WonderTest(scene, new THREE.Vector3(0,0,-700)),
-      new NebulaTest(scene, 0.96, new THREE.Vector3(-1300,1000,700), 0.009), //Anger
-      new NebulaTest(scene, 0.60, new THREE.Vector3(-1300,-700,500), 0.001), //Sadness
-      new NebulaTest(scene, 0.10, new THREE.Vector3(800,1000,300), 0.004), //Joy
-      new NebulaTest(scene, 0.80, new THREE.Vector3(2000,500,500), 0.005), //Love
-      new NebulaTest(scene, 0.02, new THREE.Vector3(1000,-800,600), 0.006), //Empowerment
-      // new WonderSystem(scene),
+      new Sphere(scene, new THREE.Vector3(0,0,0))
     ];
 
     return sceneSubjects;
@@ -169,27 +161,12 @@ export default function SceneManager (canvas)  {
 
   function update(){
 
-
-    sceneSubjects[2].update()
-    sceneSubjects[3].update()
-    sceneSubjects[4].update()
-    sceneSubjects[5].update()
-    sceneSubjects[6].update()
-    sceneSubjects[7].update()
-    // sceneSubjects[8].update()
-
-
     if(RECURSOSDESCARGADOS == false){
       //requestAnimationFrame(update);
       renderer.render(loadingScreen.scene,loadingScreen.camera);
       return;
     }else{
-      // sceneSubjects[1].update();
-      // sceneSubjects[2].update();
-      // sceneSubjects[3].update();
-      // sceneSubjects[4].update();
-      // sceneSubjects[5].update();
-      // sceneSubjects[15].update();
+
 
       var delta = clock.getDelta();
       controls.update( delta );
