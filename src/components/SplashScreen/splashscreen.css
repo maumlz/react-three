@@ -1,0 +1,20 @@
+div{
+    background-color: black;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}
+
+p{
+    color: white;
+    font-size: x-large;
+}
