@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-three/static/css/main.33509dd7.chunk.css",
+    "main.js": "/react-three/static/js/main.4d225f53.chunk.js",
+    "main.js.map": "/react-three/static/js/main.4d225f53.chunk.js.map",
+    "runtime-main.js": "/react-three/static/js/runtime-main.695e8a85.js",
+    "runtime-main.js.map": "/react-three/static/js/runtime-main.695e8a85.js.map",
+    "static/js/2.ded20b2e.chunk.js": "/react-three/static/js/2.ded20b2e.chunk.js",
+    "static/js/2.ded20b2e.chunk.js.map": "/react-three/static/js/2.ded20b2e.chunk.js.map",
+    "index.html": "/react-three/index.html",
+    "precache-manifest.a584d9a417cbf9d24c5c3d82f65e1ec6.js": "/react-three/precache-manifest.a584d9a417cbf9d24c5c3d82f65e1ec6.js",
+    "service-worker.js": "/react-three/service-worker.js",
+    "static/css/main.33509dd7.chunk.css.map": "/react-three/static/css/main.33509dd7.chunk.css.map",
+    "static/js/2.ded20b2e.chunk.js.LICENSE.txt": "/react-three/static/js/2.ded20b2e.chunk.js.LICENSE.txt",
+    "static/media/PU_Logo.png": "/react-three/static/media/PU_Logo.eea66148.png",
+    "static/media/green_nebula_skybox_BK.png": "/react-three/static/media/green_nebula_skybox_BK.cb88848e.png",
+    "static/media/green_nebula_skybox_DN.png": "/react-three/static/media/green_nebula_skybox_DN.c25be2d4.png",
+    "static/media/green_nebula_skybox_FT.png": "/react-three/static/media/green_nebula_skybox_FT.1f72071e.png",
+    "static/media/green_nebula_skybox_LF.png": "/react-three/static/media/green_nebula_skybox_LF.59cbba1e.png",
+    "static/media/green_nebula_skybox_RT.png": "/react-three/static/media/green_nebula_skybox_RT.bf4cf60e.png",
+    "static/media/green_nebula_skybox_UP.png": "/react-three/static/media/green_nebula_skybox_UP.7a4f1cb1.png",
+    "static/media/main_skybox_BK.png": "/react-three/static/media/main_skybox_BK.5c3c207e.png",
+    "static/media/main_skybox_DN.png": "/react-three/static/media/main_skybox_DN.ab69eb75.png",
+    "static/media/main_skybox_FT.png": "/react-three/static/media/main_skybox_FT.1188a9e7.png",
+    "static/media/main_skybox_LF.png": "/react-three/static/media/main_skybox_LF.14e039c3.png",
+    "static/media/main_skybox_RT.png": "/react-three/static/media/main_skybox_RT.c079b860.png",
+    "static/media/main_skybox_UP.png": "/react-three/static/media/main_skybox_UP.fb8102d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.695e8a85.js",
+    "static/js/2.ded20b2e.chunk.js",
+    "static/css/main.33509dd7.chunk.css",
+    "static/js/main.4d225f53.chunk.js"
+  ]
+}
